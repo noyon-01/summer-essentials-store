@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <body className={`${outfit.className} min-h-full flex flex-col`}>
         <Navber />
         <main className="container mx-auto">{children}</main>
-        {/* <Footer /> */}
+        <Footer />
         {/* <ToastContainer /> */}
       </body>
     </html>
