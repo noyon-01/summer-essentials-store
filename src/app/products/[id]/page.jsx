@@ -4,7 +4,7 @@ import { IoMdStar } from "react-icons/io";
 export default async function ProductDetails({ params }) {
   const { id } = await params;
 
-  const res = await fetch("https://assignment-08-tan.vercel.app/db.json");
+  const res = await fetch("https://summer-essentials-store-three.vercel.app/db.json");
   const data = await res.json();
 
   const findProduct = data?.products?.find(

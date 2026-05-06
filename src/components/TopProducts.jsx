@@ -1,7 +1,7 @@
 import ProductCard from "./ProductCard";
 
 export default async function TopProducts() {
-  const res = await fetch("https://assignment-08-tan.vercel.app/db.json");
+  const res = await fetch("https://summer-essentials-store-three.vercel.app/db.json");
   const data = await res.json();
 
   return (
